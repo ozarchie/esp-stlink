@@ -1,0 +1,72 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/John/Documents/PlatformIO/Projects/esp-stlink/include",
+                "/Users/John/Documents/PlatformIO/Projects/esp-stlink/src",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/extra_include",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/driver_lib/include",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/espressif",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv4",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv6",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/nopoll",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/ssl",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/json",
+                "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/openssl",
+                "/Users/John/.platformio/lib/ArduinoJson/src",
+                "/Users/John/.platformio/lib/TimeLord",
+                "/Users/John/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/John/Documents/PlatformIO/Projects/esp-stlink/include",
+                    "/Users/John/Documents/PlatformIO/Projects/esp-stlink/src",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/extra_include",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/driver_lib/include",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/espressif",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv4",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/lwip/ipv6",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/nopoll",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/ssl",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/json",
+                    "/Users/John/.platformio/packages/framework-esp8266-nonos-sdk/include/openssl",
+                    "/Users/John/.platformio/lib/ArduinoJson/src",
+                    "/Users/John/.platformio/lib/TimeLord",
+                    "/Users/John/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50204",
+                "ESP8266",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_ESP8266_WEMOS_D1MINI",
+                "F_CPU=80000000L",
+                "__ets__",
+                "ICACHE_FLASH",
+                ""
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/John/.platformio/packages/toolchain-xtensa@1.40802.0/bin/xtensa-lx106-elf-gcc",
+            "compilerArgs": [
+                "-mlongcalls",
+                "-mtext-section-literals",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
